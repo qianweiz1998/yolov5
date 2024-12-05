@@ -1,0 +1,5 @@
+train: ./yolo_data/train/images  # Path to training images
+val: ./yolo_data/valid/images   # Path to validation images
+
+nc: 2  # Number of classes (e.g., holds and volumes)
+names: ['Hold', 'Volume']  # Class names
